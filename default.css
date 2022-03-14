@@ -55,10 +55,8 @@ h6{font-size: 16px;}
 
 .greeting-wrapper{
     display: grid;
-
     text-align: center;
     align-content: center;
-    border: 2px dashed lightseagreen;
     min-height: 10em;
 }
 
@@ -67,6 +65,9 @@ h6{font-size: 16px;}
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+
+
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -83,15 +84,43 @@ h6{font-size: 16px;}
 
 .nav-wrapper{
     grid-area: nav-wrapper;
-    border: 1px dashed lightseagreen;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+
 }
+
+.socials-wrapper{
+    display: flex;
+    padding: 10px;
+
+}
+
+#icon-1{
+    background-color: transparent;
+}
+#icon-2{
+    background-color: transparent;
+}
+#icon-3{
+    background-color: transparent;
+}
+
+.socials{
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+
 .left-columnl{
     grid-area: Left-column;
-    border: 1px dashed lightseagreen;
+
 }
 .right-column{
     grid-area: right-column;
-    border: 1px dashed lightseagreen;
+
 }
 
 @media screen and (max-width: 1200px) {
