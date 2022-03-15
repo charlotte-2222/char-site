@@ -223,6 +223,33 @@ h6{font-size: 16px;}
     right: -5px;
 }
 
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 95px;
+}
+
+#skills{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: #d5f8ed;
+
+}
+
+.focus-link{
+    display: grid;
+    align-content: center;
+    text-align: center;
+
+}
+
+#fembot-wiki{
+    width: 110%;
+}
+
 
 @media screen and (max-width: 1200px) {
     .main-container{
