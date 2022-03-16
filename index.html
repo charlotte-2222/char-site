@@ -10,8 +10,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="default.css">
 
@@ -22,7 +21,7 @@
 <section class ="s1">
     <div class="main-container">
         <div class="greeting-wrapper">
-            <h1 class="headline load-hidden"> Hi, I'm Charlotte Childers<br>&#128075;<br><i>Welcome to my website</i></h1>
+            <h1> Hi, I'm Charlotte Childers<br>&#128075;<br><i>Welcome to my website</i></h1>
         </div>
 
 
@@ -125,19 +124,65 @@
                 <p><a href="resume.pdf">Download Resume</a></p>
 
             </div>
-            <div class="focus-link">
-                <h3>My Most In-Depth Work</h3>
-                <img id="fembot-wiki" alt="fembot wiki" src="images/version.png">
-                <hr><p>Fembot is a comprehensive Discord bot that does...
-                generally everything! After two years of work, it's running smooth
-             as butter!</p>
 
-                <hr>
-                <p>
-                <a href="https://github.com/charlotte-2222/FembotV3/wiki">Read the Wiki!</a>
-                </p>
+
+            <div class="focus-link">
+                <div class="about-me">
+                    <h4>Fembot & It's Features</h4>
+                    <p>In the Fall of 2019, a friend and I began co-writing a Python bot "Gizmo",
+                    which served the primary purpose of being a tool for our D&D group,
+                        featuring tools such as webscraping with BeautifulSoup. Gizmo served as my introduction to
+                    Discord.py, and Python in general.</p>
+
+                    <hr>
+
+                    <p>Fembot officially began in February 2020, and now hosts several features of which I'm incredibly proud.
+                        For instance, recently in 2021 several major Discord bots were hit with C&D's by
+                        YouTube for their (the Bot dev's) usage of the YT-API to stream music to voice
+                        channels.
+                        <a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/music.py">Fortunately for me</a>, I have not received one of these.</p>
+
+                    <p> I currently use the YoutubeDL library to search and stream URL's from YouTube. Instead
+                        of outright re-streaming to voicechannel, I've opted to download the audio to directory
+                        and then stream. The bot will automatically remove the downloaded audio once it exits the
+                        voice channel (Either by being told to leave, or by timing out due to inactivity)
+                    </p>
+                    <hr>
+                    <p>
+                        Fembot is not purely a music bot, of course. It is general purpose.
+                        Using the DiscordAPI, I've been able to create several <a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/admin.py">Admin/Server</a> setup commands
+                        including commands to mute, ban, and warn members. My approach is to create a log channel
+                        for all admin actions, with each of these commands there is an optional argument to provide
+                        a reason for the admin action. This argument is taken from an array and converted to a string
+                        - then displayed back in a rich embed format along with user information, all in the logging channel.
+
+                    </p>
+
+
+
+                    <h4>Additional Features</h4>
+                    <div id="fembot-features">
+                        <ul style="list-style: none">
+                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/reddit.py">Reddit Scrapping/Reposting (Praw)</a></li>
+                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/events.py">Event Listeners (Member Join, Errors)</a></li>
+                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">Ping Minecraft Server</a></li>
+                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">SQLite Quote Database</a></li>
+                            <li>and so much more...</li>
+                        </ul>
+
+                    </div>
+
+
+                    <hr>
+
+                </div>
+
+
             </div>
+
+
         </div>
+
     </div>
 </section>
 
