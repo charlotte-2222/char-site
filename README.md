@@ -4,7 +4,7 @@
 ### This portfolio demonstrates:
 
 - My capability with web development
-- Showcases several of my top projects and proudest
+- Showcases several of my top projects and proudest ones at that
 - Shows my competency to put together a project in a short period of time, and make it look pretty :)
 
 The portfolio includes several links to my socials, email, resume, and of course top projects.
@@ -13,7 +13,12 @@ The portfolio includes several links to my socials, email, resume, and of course
 [The Website itself](https://charlotte-2222.github.io/char-site/)
 <br>
 <p>
-<a href="mailto:ayy.charlotte@gmail.com">Email me!</a><br>
+<a href="mailto:ayy.charlotte@gmail.com">Email</a><br>
 
-<a href="https://discord.gg/xspn5FpfJM">Contact Discord</a>
+<a href="https://twitter.com/Charlotte_cjc">Twitter</a>
+
+<a href="https://www.linkedin.com/in/charlotte-childers-2500b2235/">LinkedIn</a><br>
 </p>
+
+---
+
