@@ -59,7 +59,7 @@
                     </div>
                 </div>
 
-                <ul id="navigation">
+                <ul class ="project-link" id="navigation">
                     <li><a href="#contact-form">Contact Me</a> </li>
                 </ul>
             </div>
@@ -111,9 +111,13 @@
 
                 <hr>
 
-                <h4>My Skills</h4>
+                <h4>
+                <span class="change">M</span><span class="change">y</span><span class="change"> </span><span class="change">S</span><span class="change">k</span><span class="change">i</span><span class="change">l</span><span class="change">l</span><span class="change">s</span>
+                <!--This span class ordeal is convoluted as all hell, but it works -->
+                </h4>
+
                 <p>
-                    Python Developer (2+ Years)
+                    Generalist Developer (2+ Years)
                 </p>
 
                 <div id="skills">
@@ -133,7 +137,7 @@
                 </div>
                 <hr>
 
-                <p><a href="update_resume.pdf">Download Resume</a></p>
+                <p><a class="resume-class" href="update_resume.pdf">Download Resume</a></p>
 
             </div>
 
@@ -152,7 +156,7 @@
                         For instance, recently in 2021 several major Discord bots were hit with C&D's by
                         YouTube for their (the Bot dev's) usage of the YT-API to stream music to voice
                         channels.
-                        <a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/music.py">Fortunately for me</a>, I have not received one of these.</p>
+                        <a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/music.py">Fortunately for me</a>, I have not received one of these.</p>
 
                     <p> I currently use the YoutubeDL library to search and stream URL's from YouTube. Instead
                         of outright re-streaming to voicechannel, I've opted to download the audio to directory
@@ -162,7 +166,7 @@
                     <hr>
                     <p>
                         Fembot is not purely a music bot, of course. It is general purpose.
-                        Using the DiscordAPI, I've been able to create several <a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/admin.py">Admin/Server</a> setup commands
+                        Using the DiscordAPI, I've been able to create several <a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/admin.py">Admin/Server</a> setup commands
                         including commands to mute, ban, and warn members. My approach is to create a log channel
                         for all admin actions, with each of these commands there is an optional argument to provide
                         a reason for the admin action. This argument is taken from an array and converted to a string
@@ -175,10 +179,10 @@
                     <h4>Additional Features</h4>
                     <div id="fembot-features">
                         <ul style="list-style: none">
-                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/reddit.py">Reddit Scrapping/Reposting (Praw)</a></li>
-                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/events.py">Event Listeners (Member Join, Errors)</a></li>
-                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">Ping Minecraft Server</a></li>
-                            <li><a href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">SQLite Quote Database</a></li>
+                            <li><a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/reddit.py">Reddit Scrapping/Reposting (Praw)</a></li>
+                            <li><a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/events.py">Event Listeners (Member Join, Errors)</a></li>
+                            <li><a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">Ping Minecraft Server</a></li>
+                            <li><a class ="project-link" href="https://github.com/charlotte-2222/FembotV3/blob/main/cogs/serverStuff.py">SQLite Quote Database</a></li>
                             <li>and so much more...</li>
                         </ul>
 
@@ -211,7 +215,7 @@
                             for users to create a 26-man roster for their dream fantasy league,
                             allowing users to search a database of several hundred MLB players,
                             view their teams and stats, and finally output their team into a file.</p>
-                            <a href="https://github.com/charlotte-2222/MLB-Fantasy-App">Check it out here!</a>
+                            <a class ="project-link" href="https://github.com/charlotte-2222/MLB-Fantasy-App">Check it out here!</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +229,7 @@
                              to be able to quickly login via server based credentials and begin building patient profiles.
                             Whether the Tech has just built a profile, or is searching for a current patient, they may then
                              create appointments and email that patient and additionally print appointment details for in-house use.</p>
-                            <a href="https://github.com/charlotte-2222/VB-Final-Vet-Project">Check it out here!</a>
+                            <a class ="project-link" href="https://github.com/charlotte-2222/VB-Final-Vet-Project">Check it out here!</a>
                         </div>
                     </div>
                 </div>
@@ -239,7 +243,7 @@
                             for two years. This project has features such as a SQLite database to add quotes by users,
                             functions to convert time, the ability to manipulate images, pull user data from the Discord API,
                             and so much more!</p>
-                            <a href="https://github.com/charlotte-2222/FembotV3">Check it out here!</a>
+                            <a class ="project-link" href="https://github.com/charlotte-2222/FembotV3">Check it out here!</a>
                         </div>
                     </div>
                 </div>
@@ -252,7 +256,7 @@
         <h3 style="text-align: center;">Drop me a letter! :)</h3>
 
         <form id="contact-form" action="mailto:ayy.charlotte@gmail.com">
-            <input id="submit-btn" type = "submit" value="Click here!">
+            <input class ="button-submit" id="submit-btn" type = "submit" value="Click here!">
         </form>
     </div>
 </section>
