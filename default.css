@@ -353,6 +353,14 @@ h6{font-size: 16px;}
     font-size: 30px;
 }
 
+
+.s4{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    display: inline-block;
+}
+#sorta-footer{}
+
 .change:hover {
     color:#08fdd8;
     font-size: 30px;
