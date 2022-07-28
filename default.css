@@ -371,10 +371,7 @@ h6{font-size: 16px;}
     font-size: 30px;
 }
 
-.project-link:hover{
-    color: #b690ea;
-    font-size: 30px;
-}
+
 
 
 @media screen and (max-width: 1200px) {
