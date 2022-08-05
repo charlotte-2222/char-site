@@ -4,18 +4,19 @@
 
 <!-- Favicon stuff   -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
     <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">-->
+    <link rel="icon" href="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" type="image/x-icon" />
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
 
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/d8f1ffd33e.js" crossorigin="anonymous"></script>
-<title>Charlotte Childers</title>
+<title>Charlotte Childers | Portfolio</title>
 
 <meta name = "viewport" content="width=device-width,
  initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -57,23 +58,45 @@
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </div>
+                    <div id=icon-4 class="socials">
+                        <a href="https://charlotte-2222.github.io/links/">
+                            <i class="fa-solid fa-globe"></i>
+                        </a>
+                    </div>
+
                 </div>
 
                 <ul class ="project-link" id="navigation">
-                    <li><a href="https://charlotte-2222.github.io/">Blog</a></li>
-                    <li>&#8226;</li>
                     <li><a href="#contact-form">Contact Me</a></li>
-                    <li>&#8226;</li>
-                    <li><a href="https://charlotte-2222.github.io/links/">Other Links</a></li>
+
 
                 </ul>
             </div>
 
             <div class="left-column">
-                <img id="profile" src="images/me-3.jpg" alt="pic of me">
-                <h5 style="text-align: center; line-height: 0;">I'm happy you're here!</h5>
+
+                <a id="profilePicture" href="#popup">
+                    <img id="profile" src="images/me-3.jpg" alt="pic of me">
+                </a>
+
+                <div class="overlay" id="popup">
+                    <div class="popup">
+                        <div class="popup-photo">
+                            <a href="images/me-3.jpg" target="_blank">
+                                <img src="images/me-3.jpg" alt="Profile Picture">
+                            </a>
+                        </div>
+                        <div class="popup-quote">
+                            I'm just an average girl in tech trying to make my way!
+                            I'm so happy you chose to look through my portfolio, make sure you check out
+                            all of my other links too!
+                        </div>
+                        <a class="popup-close" onclick="history.back()">&times;</a>
+                    </div>
+                </div>
                 <img id="git-info" alt="github stats" src="https://raw.githubusercontent.com/charlotte-2222/CopyofGitVisual/95ba7cf9c85b4c261518087ecf48273fd5f3e6ef/generated/languages.svg">
-                <h4 style="text-align: center; line-height: 1;">Stick around and look through my stuff :)</h4>
+
+
             </div>
 
             <div class="right-column">
@@ -113,6 +136,10 @@
                     I'm with my fiancé and my little Chihuahua, Cocoa-Bean.
                     The three of us form a nice little family in the humid and hot life that is Charleston, South Carolina!
                 </p>
+
+                <div id="hashtag" >
+                    #TransRightsAreHumanRights
+                </div>
 
                 <hr>
 
@@ -225,14 +252,13 @@
             <div class="post-wrapper">
                 <div>
                     <div class="post">
-                        <img class="thumbnail" alt="mlb" src="images/mlb_image.png">
+                        <img class="thumbnail" alt="blog" src="images/charrBlog.png">
                         <div class="post-preview">
-                            <h6 class="post-title">MLB Fantasy League Tool</h6>
-                            <p class="post-intro">I designed and built an application
-                            for users to create a 26-man roster for their dream fantasy league,
-                            allowing users to search a database of several hundred MLB players,
-                            view their teams and stats, and finally output their team into a file.</p>
-                            <a class ="project-link" href="https://github.com/charlotte-2222/MLB-Fantasy-App">Check it out here!</a>
+                            <h6 class="post-title">My Personal Blog</h6>
+                            <p class="post-intro">I built and semi-regularly update a personal blog where I talk about projects I'm working on,
+                                life events, or give my opinion on any current event. Additionally, I strive to maintain the website's
+                            best looks - It has to look pretty! :)</p>
+                            <a class ="project-link" href="https://charlotte-2222.github.io/">Check it out here!</a>
                         </div>
                     </div>
                 </div>
@@ -253,13 +279,13 @@
 
                 <div>
                     <div class="post">
-                        <img class="thumbnail" alt="fembot prev" src="images/button2.png">
+                        <img class="thumbnail" alt="Charr Lang image" src="images/charrLang.png">
                         <div class="post-preview">
-                            <h6 class="post-title">The Buttons</h6>
-                            <p class="post-intro">"The Buttons" is a website I created one day when I felt I needed a button to click.
-                                It now features a word counting box,
-                                inspirational image generator, and my spotify playlist.</p>
-                            <a class ="project-link" href="https://charlotte-2222.github.io/the-buttons/">Check it out here!</a>
+                            <h6 class="post-title">Charr Lang</h6>
+                            <p class="post-intro">Charr (Lang) is my own custom programming language that is currently under
+                             development. Charr is a Pythonic compiled language, borrowing several syntactic ideas from C languages.
+                            Charr is still under early development, mainly accessible via it's shell.</p>
+                            <a class ="project-link" href="https://github.com/charlotte-2222/charr-lang">Check it out here!</a>
                         </div>
                     </div>
                 </div>
@@ -286,7 +312,7 @@
             <img alt="git follow badge" src ="https://img.shields.io/github/followers/charlotte-2222.svg?style=social&label=Follow&maxAge=2592000">
         </a>
         <p class="left-column">
-            <img alt="build badge" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+            <img alt="build badge" src="https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg">
        </p>
     </div>
 
@@ -295,8 +321,8 @@
 <script>
     kofiWidgetOverlay.draw('ayycharlotte', {
         'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Donate',
-        'floating-chat.donateButton.background-color': '#00bfa5',
+        'floating-chat.donateButton.text': 'Support me!',
+        'floating-chat.donateButton.background-color': '#fba4cb',
         'floating-chat.donateButton.text-color': '#fff'
     });
 </script>
