@@ -503,6 +503,7 @@ h6{font-size: 16px;}
             'nav-wrapper'
             'left-column'
             'right-column'
+            'footer-wrapper';
     ;}
     #profilePicture, #profilePicture img{
         width: 80px;
@@ -512,9 +513,7 @@ h6{font-size: 16px;}
     }
 
 
-    }
-
-
+}
 
 #hashtag {
     position: relative;
