@@ -489,8 +489,6 @@ h6{font-size: 16px;}
 }
 
 
-
-
 @media screen and (max-width: 1200px) {
     .main-container{
         width: 100%
@@ -511,7 +509,6 @@ h6{font-size: 16px;}
         margin: 20px auto 30px;
 
     }
-
 
 }
 
@@ -534,4 +531,3 @@ h6{font-size: 16px;}
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
-
